@@ -10,59 +10,70 @@
 <body>
 <!-- start navbar -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">First Website</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+<div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary pb-3">
+        <a class="navbar-brand text-white" href="#">First Website</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Skill</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
-            </li>
-
-
-
-
-
-
-
-
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
-    </div>
-</nav>
-
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white font-weight-bold" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Skill</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Projects</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
 <!-- end navbar -->
+
+<!-- start Main -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <div class="jumbotron jumbotron-fluid bg-dark">
+                <div class="mt-5 ml-5">
+                    <h1><span class="font-weight-bold text-danger">My First Bootstrap 4</span><span
+                            class="font-italic text-white"> website </span></h1>
+                    <p class="text-secondary mt-3">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                        has been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                        galley of type
+                        and scrambled it to make a type specimen book. It has survived not only five centuries,
+                        but also the
+                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+                        the 1960s
+                        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                        with desktop
+                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+
+                    <p class="mt-5 ml-2">
+                        <button type="button" class="btn btn-outline-primary btn-lg">Press Here</button>
+                        <button type="button" class="btn btn-outline-success btn-lg">Press Here</button>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- end Main -->
 
 
 </body>
