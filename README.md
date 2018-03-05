@@ -4,7 +4,7 @@ This is the test project for creating template using Bootstrap 4.
 
 ## Demo
 
-[Click here for demo](http://bootstrap4-test01.lukelee01.net.s3-website-us-east-1.amazonaws.com)
+[Click here for demo](http://bootstrap4-test01.lukelee01.net)
 
 
 
