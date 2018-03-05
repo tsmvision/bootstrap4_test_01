@@ -5,3 +5,7 @@
 .about-picture-height {
     min-height: 450px;
 }
+
+.footer {
+    min-height: 40px;
+}
