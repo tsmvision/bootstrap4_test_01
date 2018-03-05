@@ -1,4 +1,7 @@
 .about-bg-picture {
-    background:url("https://cdn-images-1.medium.com/max/2000/1*_3Ie3AP31IaJOwFsfOG5Wg.jpeg");
-    background-size:cover;
+    background: #ffffff url("./img/laptop1.jpg") center/cover no-repeat fixed;
+}
+
+.about-picture-height {
+    min-height: 80vh;
 }
