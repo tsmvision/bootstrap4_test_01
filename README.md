@@ -1,6 +1,6 @@
 # Bootstrap 4 - Testing
 
-This is the test project for creating template using Bootstrap 4.
+This is the bootstrap 4 template for testing Bootstrap 4.
 
 ## Demo
 
