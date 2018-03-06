@@ -17,3 +17,15 @@
 .sns-icon:hover {
     color: orangered;
 }
+
+.carousel-custom {
+    max-width: 500px;
+}
+
+.filler {
+    min-height: 300px;
+    background-color: #ffffff;
+    background-image: url("img/filler/filler01.jpeg");
+    background-repeat: no repeat;
+    background-size: cover;
+}
